@@ -94,7 +94,7 @@ pipeline {
           stage("Paso 8: Testear Artefacto con newman "){
             steps {
                 script{
-                    sh "sleep 20 && newman run ejemplo-maven.postman_collection.json'"
+                    sh "sleep 20 && newman run ejemplo-maven.postman_collection.json"
                 }
             }
         }
