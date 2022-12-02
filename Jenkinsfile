@@ -7,7 +7,7 @@ pipeline {
     agent any
     environment {
         channel='C045V4XEHHN'
-        NEXUS_PASSWORD = credentials('admin-user')
+        NEXUS_PASSWORD = credentials('nexus-pass')
     }
     stages {
      
