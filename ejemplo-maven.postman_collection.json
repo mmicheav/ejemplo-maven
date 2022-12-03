@@ -12,13 +12,14 @@
 					"listen": "test",
 					"script": {
 						"exec": [
+							"pm.test(\"Response time is less than 1000ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(1000);",
+							"});",
+							"",
 							"pm.test(\"Status code is 200\", function () {",
 							"    pm.expect(pm.response).to.have.code(200);",
 							"});",
-							"",
-							"pm.test(\"Response time is less than 200ms\", function () {",
-							"    pm.expect(pm.response.responseTime).to.be.below(250);",
-							"});"
+							""
 						],
 						"type": "text/javascript"
 					}
@@ -56,16 +57,14 @@
 					"listen": "test",
 					"script": {
 						"exec": [
+							"pm.test(\"Response time is less than 1000ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(1000);",
+							"});",
+							"",
 							"pm.test(\"Status code is 200\", function () {",
 							"    pm.expect(pm.response).to.have.code(200);",
 							"});",
-							"pm.test(\"Mensaje == ok\", function () {",
-							"    var jsonData = pm.response.json();",
-							"    pm.expect(jsonData.mensaje).to.eql(\"ok\");",
-							"});",
-							"pm.test(\"Response time is less than 1000ms\", function () {",
-							"    pm.expect(pm.response.responseTime).to.be.below(1000);",
-							"});"
+							""
 						],
 						"type": "text/javascript"
 					}
@@ -112,13 +111,14 @@
 					"listen": "test",
 					"script": {
 						"exec": [
+							"pm.test(\"Response time is less than 1000ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(1000);",
+							"});",
+							"",
 							"pm.test(\"Status code is 200\", function () {",
 							"    pm.expect(pm.response).to.have.code(200);",
 							"});",
-							"",
-							"pm.test(\"Response time is less than 200ms\", function () {",
-							"    pm.expect(pm.response.responseTime).to.be.below(250);",
-							"});"
+							""
 						],
 						"type": "text/javascript"
 					}
@@ -162,13 +162,14 @@
 					"listen": "test",
 					"script": {
 						"exec": [
+							"pm.test(\"Response time is less than 1000ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(1000);",
+							"});",
+							"",
 							"pm.test(\"Status code is 200\", function () {",
 							"    pm.expect(pm.response).to.have.code(200);",
 							"});",
-							"",
-							"pm.test(\"Response time is less than 200ms\", function () {",
-							"    pm.expect(pm.response.responseTime).to.be.below(250);",
-							"});"
+							""
 						],
 						"type": "text/javascript"
 					}
