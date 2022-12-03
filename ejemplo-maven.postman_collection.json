@@ -17,7 +17,7 @@
 							"});",
 							"",
 							"pm.test(\"Status code is 200\", function () {",
-							"    pm.expect(pm.response).to.have.code(200);",
+							"    pm.expect(pm.response).to.have.status(200);",
 							"});",
 							""
 						],
@@ -62,7 +62,7 @@
 							"});",
 							"",
 							"pm.test(\"Status code is 200\", function () {",
-							"    pm.expect(pm.response).to.have.code(200);",
+							"    pm.expect(pm.response).to.have.status(200);",
 							"});",
 							""
 						],
@@ -116,7 +116,7 @@
 							"});",
 							"",
 							"pm.test(\"Status code is 200\", function () {",
-							"    pm.expect(pm.response).to.have.code(200);",
+							"    pm.expect(pm.response).to.have.status(200);",
 							"});",
 							""
 						],
@@ -167,7 +167,7 @@
 							"});",
 							"",
 							"pm.test(\"Status code is 200\", function () {",
-							"    pm.expect(pm.response).to.have.code(200);",
+							"    pm.expect(pm.response).to.have.status(200);",
 							"});",
 							""
 						],
